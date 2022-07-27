@@ -5,6 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Copyright>ChunkyChode 2022</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/chunkychode/ChunkyConsoleCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/chunkychode/ChunkyConsoleCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>console</PackageTags>
   </PropertyGroup>
 
 </Project>

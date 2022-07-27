@@ -8,8 +8,8 @@ namespace ChunkyConsoleCore.Commands
 {
     public class DynamicPrompterCommand : PrompterCommand
     {
-        System.Reflection.MethodInfo _mem;
-        object _source;
+        readonly System.Reflection.MethodInfo _mem;
+        readonly object _source;
 
         public DynamicPrompterCommand(System.Reflection.MethodInfo mem, object source)
         {

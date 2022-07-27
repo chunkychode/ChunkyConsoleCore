@@ -86,7 +86,7 @@ namespace ChunkyConsoleCore.Utils
             try
             {
                 started = false;
-                _t.Abort();
+                _t.Interrupt();
             }
             catch { }
         }

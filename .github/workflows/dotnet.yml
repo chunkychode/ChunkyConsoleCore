@@ -32,4 +32,5 @@ jobs:
         PROJECT_FILE_PATH: ChunkyConsoleCore.csproj
         # NuGet package id, used for version detection & defaults to project name
         PACKAGE_NAME: ChunkyConsoleCore
-        NUGET_SOURCE: # optional, default is https://api.nuget.org  
+        NUGET_SOURCE: # optional, default is https://api.nuget.org
+        VERSION_STATIC: 1.0.0
